@@ -3,8 +3,6 @@ Programmers - N으로 표현
 """
 
 def solution(N, number):
-    answer = 0
-    
     max_num = 8
     N = str(N)
     memory = [[] for _ in range(max_num + 1)]
