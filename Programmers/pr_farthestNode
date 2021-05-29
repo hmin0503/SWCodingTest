@@ -1,0 +1,26 @@
+from collections import deque
+
+def solution(n, edge):
+    answer = 0
+    graphs = {k:[] for k in range(n + 1)}
+    lengths = [0] * (n + 1)
+    visited = [0] * (n + 1)
+    for i, j in edge:
+        graphs[i].append(j)
+        graphs[j].append(i)
+    queue = deque()
+    queue.append(1)
+    lengths[1] = 0
+    visited[1] = 1
+    while queue:
+        q = queue.popleft()
+        for i in graphs[q]:
+            if visited[i] == 0:
+                lengths[i] = lengths[q] + 1
+                queue.append(i)
+                visited[i] = 1
+    maximum = max(lengths)
+    for i in range(n + 1):
+        if lengths[i] == maximum:
+            answer += 1
+    return answer
