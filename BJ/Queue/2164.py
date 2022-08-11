@@ -21,7 +21,7 @@ def main():
         t = cards.popleft()
         cards.append(t)
     print(cards[0])
-              
+    
 if __name__ == '__main__':
     main()
         

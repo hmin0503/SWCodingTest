@@ -1,6 +1,6 @@
 #!/home/hmin/anaconda3/envs/tensor-gpu/bin/python3.8
 #------------------------
-# #Recursive
+# #Recursion #Silver5
 # https://www.acmicpc.net/problem/17478
 #------------------------
 def recursive(n):
