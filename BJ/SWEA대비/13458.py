@@ -6,10 +6,10 @@
 import math
 
 def solution(n, a, b, c):
-    cnt = 0
+    cnt = n
     for x in a:
-        if x > max(b, c):
-            cnt += math.ceil((x-max(b, c))/c)
+        if x > b:
+            cnt += math.ceil((x-b)/c)
     return cnt
 
 if __name__ == '__main__':
@@ -17,3 +17,4 @@ if __name__ == '__main__':
     a = list(map(int, input().split()))
     b, c = map(int, input().split())
     print(solution(n, a, b, c))
+    
