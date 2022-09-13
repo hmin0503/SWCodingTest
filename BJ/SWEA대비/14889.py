@@ -16,7 +16,7 @@ def backtracking(groups, st, N):
                     starter += S[j][i]
                 elif i not in groups and j not in groups:
                     link += S[i][j]
-                    link += S[j][i]        
+                    link += S[j][i]
         # for i in groups:
         #     for j in groups:
         #         starter += S[i][j]
