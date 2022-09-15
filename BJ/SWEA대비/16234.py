@@ -1,8 +1,10 @@
 #------------------------
 # 인구 이동
-# #Gold5 #Simulation #Implementation #BFS #얼음틀문제
+# #Gold5 #Simulation #Implementation #BFS
+ #얼음틀문제랑유사
 # https://www.acmicpc.net/problem/16234
 #------------------------
+
 from collections import deque
 
 def bfs(maps, L, R):
