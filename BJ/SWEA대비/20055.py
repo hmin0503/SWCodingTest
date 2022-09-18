@@ -45,12 +45,14 @@ if __name__ == '__main__':
 
         # 4. 내구도가 0인 칸의 개수.
         # print("check durability", conveyor)
-        cnt = 0
-        for d in conveyor:
-            if d == 0:
-                cnt += 1
-        if cnt >= K :
+        if conveyor.count(0) >= K :
             print(step)
             break
+        # for d in conveyor:
+        #     if d == 0:
+        #         cnt += 1
+        # if cnt >= K :
+        #     print(step)
+        #     break
         
         
