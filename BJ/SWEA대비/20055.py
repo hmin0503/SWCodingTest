@@ -48,11 +48,5 @@ if __name__ == '__main__':
         if conveyor.count(0) >= K :
             print(step)
             break
-        # for d in conveyor:
-        #     if d == 0:
-        #         cnt += 1
-        # if cnt >= K :
-        #     print(step)
-        #     break
-        
+
         
