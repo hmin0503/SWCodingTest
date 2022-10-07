@@ -1,6 +1,6 @@
 #------------------------
 # #BFS #DFS #Graph #Traversal #Queue #Recursion
-# https://www.acmicpc.net/problem/24444
+# https://www.acmicpc.net/problem/2606
 #------------------------
 from collections import deque
 import sys
