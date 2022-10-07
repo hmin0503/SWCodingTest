@@ -1,6 +1,6 @@
 #------------------------
 # 상어 초등학교
-# #Gold5 #Implementation
+# #Gold5 #Implementation #더 깔끔하게 코드 짜는 법? #1시간 내
 # https://www.acmicpc.net/problem/21608
 #------------------------
 
@@ -30,7 +30,6 @@ def arrangement(orders, likes):
     return visited
 
 def calculate(visited):
-
     # up, right, down, left
     dr = [-1, 0, 1, 0]
     dc = [0, 1, 0, -1]
