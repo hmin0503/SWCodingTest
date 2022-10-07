@@ -5,7 +5,7 @@
 from collections import deque
 
 def bfs(r,c):
-    dr = [1, 0, -1, 0]
+    dr = [-1, 0, 1, 0]
     dc = [0, 1, 0, -1]
     cnt = 1
     queue = deque([(r,c)])
