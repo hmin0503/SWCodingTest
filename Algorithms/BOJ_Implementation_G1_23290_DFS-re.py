@@ -1,5 +1,6 @@
 #------------------------
 # #Implementation #Simulation #DFS #다른사람풀이
+# https://ryu-e.tistory.com/107
 # https://www.acmicpc.net/problem/23290
 #------------------------
 

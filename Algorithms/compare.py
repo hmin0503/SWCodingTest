@@ -1,3 +1,5 @@
+# https://ryu-e.tistory.com/107
+
 import copy
 
 def move_fish():
@@ -15,8 +17,8 @@ def move_fish():
                 for i in range(d, d - 8, -1):
                     i %= 8
                     nx, ny = x + f_dx[i], y + f_dy[i]
-                    if testcase == 2:
-                        print(x,y,d, "->", nx, ny, i, "|", smell[nx][ny])
+                    # if testcase == 2:
+                    #     print(x,y,d, "->", nx, ny, i, "|", smell[nx][ny])
                     if (nx, ny) != shark and \
                         0 <= nx < 4 and 0 <= ny < 4 and \
                             not smell[nx][ny]:
