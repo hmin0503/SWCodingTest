@@ -19,7 +19,6 @@ def w(a, b, c):
     if a > 20 or b > 20 or c > 20:
         return w(20, 20, 20)
     
-    
     # 계산 값은 바로 저장하기
     if a < b and b < c:
         memo[(a,b,c)] = w(a, b, c-1) + w(a, b-1, c-1) - w(a, b-1, c) 
