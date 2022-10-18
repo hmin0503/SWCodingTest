@@ -1,6 +1,6 @@
 #------------------------
 # #DataStructure #BinarySearch #Hash #Sort #SetMap
-# https://www.acmicpc.net/problem/11286
+# https://www.acmicpc.net/problem/10816
 #------------------------
 
 from collections import Counter
