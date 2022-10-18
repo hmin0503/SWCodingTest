@@ -1,6 +1,6 @@
 #------------------------
 # #DataStructure #BinarySearch
-# https://www.acmicpc.net/problem/11286
+# https://www.acmicpc.net/problem/1920
 #------------------------
 
 if __name__ == '__main__':
