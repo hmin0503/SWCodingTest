@@ -1,6 +1,6 @@
 #------------------------
 # #BFS #Graph #Traversal #Queue #Implementation
-# https://www.acmicpc.net/problem/2206
+# https://www.acmicpc.net/problem/16928
 #------------------------
 from collections import deque
 def bfs():
