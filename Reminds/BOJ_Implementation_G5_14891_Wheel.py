@@ -2,11 +2,7 @@
 # #Implementation #Simulation
 # https://www.acmicpc.net/problem/14891
 #------------------------
-# 종이 위에 테트로미노 하나를 놓기
-    # 한 점을 기준으로 놓기
-    # 회전 해보기
-    # 대칭 해보기
-# 값이 최대가 되는가?
+
 def rotate(gear, d):
     if d == 1:
         gear = [gear[-1]] + gear[:-1]
