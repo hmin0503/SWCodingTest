@@ -158,7 +158,6 @@ dmypy.json
 cython_debug/
 
 # Customize
-*.ipynb
 *.vscode
 *~
 *#
